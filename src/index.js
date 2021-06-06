@@ -8,10 +8,12 @@ setInterval(tick,1000);
 function tick(){
 const HelloWorld = () => {
     return (
+        <div>
         <h1>
             Hello World!!
-            <Practice/>
         </h1>
+        <Practice/>
+        </div>
     );
 }
 
