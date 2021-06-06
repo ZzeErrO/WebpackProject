@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Practice from './pages/Practice.jsx';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Parents from './components/Portal/Parents.jsx';
+import App from './components/HOC/App.jsx';
+
 
 const HelloWorld = () => {
     return (
@@ -16,7 +18,7 @@ const HelloWorld = () => {
             </Switch>
         </BrowserRouter> */}
 
-        <Parents/>
+        <App/>
 
         </div>
     );
