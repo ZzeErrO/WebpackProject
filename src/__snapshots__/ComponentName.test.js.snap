@@ -1,9 +1,0 @@
-exports[`ComponentName should render initial layout 1`] = `
-Array [
-<div>
-    <input
-         type="number"
-    />
-</div>,
-]
-`;
